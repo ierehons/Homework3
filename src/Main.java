@@ -73,7 +73,7 @@ public class Main {
         var totalWorkingHours = 640;
         var workingHours = 8;
         var totalEmployees=totalWorkingHours / workingHours;
-        System.out.println("Всего работников в компании- "+(totalEmployees)+" "+"человек");
+        System.out.println("Всего работников в компании: "+(totalEmployees)+" "+"человек");
 
         totalEmployees=totalEmployees+94;
         totalWorkingHours=totalEmployees*workingHours;
